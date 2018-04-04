@@ -9,5 +9,6 @@ When you run the web server included with this sample code, a website will be se
 # Get started
 
 1. Create a _.env_ file based on _.env.example_.
-2. Run `npm start`.
+2. Run `npm install`.
+3. Run `npm start`.
 3. Visit `http://localhost:<the_port_you_configured>` in your browser.

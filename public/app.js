@@ -12,17 +12,10 @@ fetch('/app')
         Smooch.init({ appId: appId });
 
         document.getElementById('trigger').onclick = function () {
-            var appUser = Smooch.getUser();
-
-            if (appUser) {
-                fetch('/event?appUserId=' + appUser._id);
-                return;
-            }
-
             Smooch.startConversation()
                 .then(function() {
-                    var newUser = Smooch.getUser();
-                    fetch('/event?appUserId=' + newUser._id);
+                    var appUser = Smooch.getUser();
+                    fetch('/event?appUserId=' + appUser._id);
                 });
         }
     });

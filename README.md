@@ -1,4 +1,4 @@
-# web-event-triggered-messages-poc
+# Business Initiated Conversations on Web
 
 This is a recipe for triggering an event on a website that causes a message to be sent to a new user.
 

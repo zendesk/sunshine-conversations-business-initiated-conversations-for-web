@@ -9,9 +9,9 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
-    "body-parser": "1.18.2",
+    "body-parser": "1.20.3",
     "dotenv": "5.0.1",
-    "express": "4.16.3",
+    "express": "4.19.2",
     "smooch-core": "6.0.0"
   }
 }
